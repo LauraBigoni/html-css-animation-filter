@@ -149,10 +149,10 @@
 }
 /* my solution */
 .ex-11-icon:hover {
-    animation: spin 2s alternate ;
+    animation: spin300 2s alternate ;
 }
 
-@keyframes spin {
+@keyframes spin300 {
     0% {
         transform:rotate(0deg);
     }
@@ -178,8 +178,6 @@
     text-align: center;
     text-decoration: none;
 }
-/* my solution */
-
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -188,7 +186,35 @@
     width: 60px;
     height: 20px;
 }
-
+/* my solution */
+.ex-12-button:hover .ex-12-top-white {
+    animation: top 2s linear infinite;
+}
+@keyframes top {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 80px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bot 2s linear infinite;
+}
+@keyframes bot {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 80px);
+    }
+    100% {
+        left: 10%;
+    }
+}
 /* ------------------------------------------------ */
 /* Esercizio 13 */
 .ex-12-bottom-white, .ex-13-bottom-white {
