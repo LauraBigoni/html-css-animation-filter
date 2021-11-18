@@ -148,6 +148,21 @@
     font-size: 60px;
 }
 /* my solution */
+.ex-11-icon:hover {
+    animation: spin 2s alternate ;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    80% {
+        transform:rotate(300deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
 /* ------------------------------------------------ */
 /* Esercizio 12 */
 .ex-12-button, .ex-13-button {
