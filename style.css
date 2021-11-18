@@ -74,11 +74,11 @@
     transform: scale(0.2);
 }
 /* ------------------------------------------------ */
-/* Esercizio 6 */
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
-
+/* Esercizio 6 */
 /* my solution */
 .ex-6-img:hover {
     filter: grayscale(1);
@@ -86,9 +86,22 @@
 /* ------------------------------------------------ */
 /* Esercizio 7 */
 /* my solution */
+.ex-7-img {
+    transition: 2s;
+    transform: scale(0.5);
+}
+.ex-7-img:active {
+    transform: scale(2);
+ }
+ .ex-7-img:hover {
+    filter: saturate(60%) contrast(200%);
+ }
 /* ------------------------------------------------ */
 /* Esercizio 8 */
 /* my solution */
+.ex-8-img {
+
+}
 /* ------------------------------------------------ */
 /* Esercizio 9 */
 .ex-9-img {
