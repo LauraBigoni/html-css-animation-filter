@@ -116,7 +116,13 @@
 }
 /* my solution */
 .ex-9-img {
-    
+    transition: 4s;
+    transform: scale(1);
+}
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: saturate(30%) sepia(0.2);
+    transform: scale(2);
 }
 /* ------------------------------------------------ */
 /* Esercizio 10 */
