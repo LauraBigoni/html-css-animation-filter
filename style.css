@@ -212,18 +212,18 @@
     }
 }
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: bot 2s linear infinite;
+    animation: bot 2s reverse infinite;
 }
 
 @keyframes bot {
     0% {
-        left: 10%;
+        right: 10%;
     }
     50% {
-        left: calc(100% - 80px);
+        right: calc(100% - 80px);
     }
     100% {
-        left: 10%;
+        right: 10%;
     }
 }
 /* ------------------------------------------------ */
