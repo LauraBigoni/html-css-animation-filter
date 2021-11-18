@@ -130,6 +130,18 @@
     font-size: 60px;
 }
 /* my solution */
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
 /* ------------------------------------------------ */
 /* Esercizio 11 */
 .ex-11-icon {
