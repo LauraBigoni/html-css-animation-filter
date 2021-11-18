@@ -1,9 +1,10 @@
+/* ------------------------------------------------ */
+/* Esercizio 1 */
 .ex-1-square {
     width: 100px;
     height: 100px;
     border: 1px solid red;
 }
-
 /* my solution */
  .ex-1-square {
     transition: 2s;
@@ -12,42 +13,71 @@
     background-color: red;
  }
 /* ------------------------------------------------ */
-
+/* Esercizio 2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/* my solution */
+.ex-2-square {
+    transition: 2s;
+}
+ex.ex-2-square:active {
+    width: 100%;
+}
+/* ------------------------------------------------ */
+/* Esercizio 3 */
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/* my solution */
+/* ------------------------------------------------ */
+/* Esercizio 4 */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/* my solution */
+/* ------------------------------------------------ */
+/* Esercizio 5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+/* my solution */
+/* ------------------------------------------------ */
+/* Esercizio 6 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
-
+/* my solution */
+/* ------------------------------------------------ */
+/* Esercizio 7 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+/* my solution */
+/* ------------------------------------------------ */
+/* Esercizio 8 */
 .ex-10-icon {
     font-size: 60px;
 }
+/* my solution */
+/* ------------------------------------------------ */
+/* Esercizio 9 */
 .ex-11-icon {
     font-size: 60px;
 }
+/* my solution */
+/* ------------------------------------------------ */
+/* Esercizio 10 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -61,6 +91,9 @@
     text-align: center;
     text-decoration: none;
 }
+/* my solution */
+/* ------------------------------------------------ */
+/* Esercizio 11 */
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -69,6 +102,9 @@
     width: 60px;
     height: 20px;
 }
+/* my solution */
+/* ------------------------------------------------ */
+/* Esercizio 12 */
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
@@ -77,3 +113,4 @@
     width: 60px;
     height: 20px;
 }
+/* my solution */
