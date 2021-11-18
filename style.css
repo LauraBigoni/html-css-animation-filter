@@ -64,6 +64,15 @@
     background: red;
 }
 /* my solution */
+.ex-5-square {
+    transition: 2s;
+}
+.ex-5-square:hover {
+    transform: scale(2);
+}
+.ex-5-square:active {
+    transform: scale(0.2);
+}
 /* ------------------------------------------------ */
 /* Esercizio 6 */
 .ex-6-img, .ex-7-img, .ex-8-img {
