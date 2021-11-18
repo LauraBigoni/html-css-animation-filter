@@ -100,7 +100,13 @@
 /* Esercizio 8 */
 /* my solution */
 .ex-8-img {
-
+    transition: 2s;
+    border-radius: 50px;
+    filter:hue-rotate(180deg) blur(2px);
+}
+.ex-8-img:hover {
+    border-radius: 50px;
+    filter:hue-rotate(0deg) blur(0px);
 }
 /* ------------------------------------------------ */
 /* Esercizio 9 */
@@ -109,6 +115,9 @@
     width: 400px;
 }
 /* my solution */
+.ex-9-img {
+    
+}
 /* ------------------------------------------------ */
 /* Esercizio 10 */
 .ex-10-icon {
